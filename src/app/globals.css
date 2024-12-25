@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  /* font-weight:100; */
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+link:hover {
+  color: black;
+}
+.cont {
+  background-image: url("/images/banners/sad.jpg");
+}
+#cca {
+  background-image: url("/images/banners/bga.jpg");
+  background-size: cover;
+  
+  /* background-position: center; */
+}
